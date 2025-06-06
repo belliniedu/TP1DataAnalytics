@@ -19,5 +19,5 @@ json.mostrar_resumen()
 
 # Guardar en la base de datos
 db = DataSaver()
-db.guardar_dataframe(csv.datos, "w_mean_prod_csv")
-db.guardar_dataframe(json.datos, "ventas_xlsx")
+db.guardar_dataframe(csv.datos, "precios-de-gas-natural-.csv")
+db.guardar_dataframe(json.datos, "world-population-by-country-2020.json")
