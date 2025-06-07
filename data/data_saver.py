@@ -23,7 +23,7 @@ class DataSaver:
             return
 
         if not isinstance(df, pd.DataFrame):
-            print(f"Tipo no v·lido: Se recibiÛ un {type(df)} cuando se esperaba un DataFrame.")
+            print(f"Tipo no v√°lido: Se recibi√≥ un {type(df)} cuando se esperaba un DataFrame.")
             return
 
         try:
