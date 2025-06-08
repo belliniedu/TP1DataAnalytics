@@ -11,13 +11,11 @@ json_path = path.join(path.dirname(__file__), "files/world-population-by-country
 # Cargar los datasets y transformar los datos
 csv = DatasetCSV(csv_path)
 csv.cargar_datos()
-csv.mostrar_resumen()
 
 json = DatasetJSON(json_path)
 json.cargar_datos()
-json.mostrar_resumen()
 
 # Guardar en la base de datos
 db = DataSaver()
-db.guardar_dataframe(csv.datos, "precios-de-gas-natural-.csv")
-db.guardar_dataframe(json.datos, "world-population-by-country-2020.json")
+db.guardar_dataframe(csv.datos, "precios-de-gas-natural-")
+db.guardar_dataframe(json.datos, "world-population-by-country-2020")

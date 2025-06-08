@@ -3288,5 +3288,32 @@
     "median_age": "N.A.",
     "urban_population": "N.A.",
     "world_share": "0.00 %"
+  },
+  {
+    "position": "235",
+    "country": "Holy See",
+    "population": "801",
+    "yearly_change": "0.25 %",
+    "net_change": "2",
+    "density_per_square_km": "2,003",
+    "land_are_in_square_km": "0",
+    "migrants_net": "",
+    "fertility_rate": "N.A.",
+    "median_age": "N.A.",
+    "urban_population": "N.A.",
+    "world_share": "0.00 %"
+  },
+  {
+    "country": "Holy See",
+    "population": "801",
+    "yearly_change": "0.25 %",
+    "net_change": "2",
+    "density_per_square_km": "2,003",
+    "land_are_in_square_km": "0",
+    "migrants_net": "",
+    "fertility_rate": "N.A.",
+    "median_age": "N.A.",
+    "urban_population": "N.A.",
+    "world_share": "0.00 %"
   }
 ]

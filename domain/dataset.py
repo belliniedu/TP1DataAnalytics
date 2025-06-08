@@ -35,6 +35,7 @@ class Dataset(ABC):
     def transformar_datos(self):
         if self.datos is not None:
             self.__datos.columns = self.datos.columns.str.lower().str.replace(" ", "_")
+            self.__datos = self.datos.replace(to_replace=[None, "nan", "NaN", ""], value=" ")
             self.__datos = self.datos.drop_duplicates()
             for col in self.datos.select_dtypes(include="object").columns:
                 self.__datos[col] = self.datos[col].astype(str).str.strip()

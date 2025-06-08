@@ -10,6 +10,7 @@ class DatasetJSON(Dataset):
     def cargar_datos(self):
         try:
             df = pd.read_json(self.fuente)
+            print("Se cargó el JSON")
             self.datos = df
             if self.validar_datos():
                 self.transformar_datos()
