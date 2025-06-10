@@ -42,6 +42,3 @@ class Dataset(ABC):
             print("Se aplicaron las transformaciones.")
         else:
             print("No se encontraron datos para transformar.")
-
-    def mostrar_resumen(self):
-        return print(self.datos.describe(include='all') if self.datos is not None else "No se encontraron Datos.")
